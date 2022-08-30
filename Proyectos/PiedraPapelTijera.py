@@ -24,6 +24,9 @@ print("Fecha: "+f" {dia}/{mes}/{anio}".rjust(100, "-"))
 # Unicode Emojis: op[0] es piedra op[1] es papel y op[2] es tijera
 op = ["\U0000270A", "\U0001F91A", "\U0000270C"]
 e1 = int(input('Vamos jugar Jo Ken Po!\nEscriba uno de los numeros abajo para jugar: \n1 para elegir "\U0000270A" \n2 para elegir "\U0001F91A" \n3 para elegir "\U0000270C"\n'))
+while e1 != ('1', '2', '3'):
+    e1 = int(input('\nHas ingresado un valor distinto!\nEscriba uno de los numeros abajo para jugar: \n1 para elegir "\U0000270A" \n2 para elegir "\U0001F91A" \n3 para elegir "\U0000270C"\n'))
+
 if e1 == 1:
     j1 = op[0]
 elif e1 == 2:
