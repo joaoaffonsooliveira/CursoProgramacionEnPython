@@ -5,5 +5,8 @@ while b in('UNO', 'DOS', 'TRES'):
     print('Hola mundo!')
     a += 1
     if a >= 5:
-        break
+        continue
+    else:
+        a = 0
+        print("Hola!")
 print('Salimos')
