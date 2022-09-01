@@ -48,7 +48,7 @@ print (" 3ra forma ".center(30,"*"))
 while (n:=input("Ingresar numero: ")) in ("1","2","3","4","5","6",1,2,3,4,5,6):    
 
     print(f"Tu ingreso fue: {n}")
-    if (input("¿Es un nÚmero(S/N)?: ")).upper()=="S":
+    if (input("¿Es un número(S/N)?: ")).upper()=="S":
         nn=int(n)
         print (f'''Ingresaste el numero {nn} y está en conjunto
          ("1","2","3","4","5","6",1,2,3,4,5,6)''')
