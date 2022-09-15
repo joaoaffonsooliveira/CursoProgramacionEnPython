@@ -28,8 +28,8 @@ def color_menu(t):
 
 borra()	
 # Declaramos una lista vacia
-mi_lista=["Argenina","Bolivia","Brasil","Ecuador"]		
-mi_lista2=[1,2,3.1,"4","5.1","3.15",'"3.1"',"3,1","'3.1'"]
+mi_lista = ["Argentina","Bolivia","Brasil","Ecuador"]
+mi_lista2 = [1,2,3.1,"4","5.1","3.15",'"3.1"',"3,1","'3.1'"]
 def menu_lista():
 	borra()
 	lm=["╔══════════════════╗",
